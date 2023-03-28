@@ -1,0 +1,11 @@
+.MySales-Container{
+    margin: 10px 0;
+}
+.Header h1{
+ position: relative;
+ left: 5px;
+ top: 100px;
+ font-weight: bold;
+
+}
+

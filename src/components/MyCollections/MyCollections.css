@@ -1,0 +1,12 @@
+.MyCollections-Container{
+    margin: 10px;
+
+}
+
+.Header h1{
+    position: relative;
+    left: 5px;
+    top: 100px;
+    font-weight: bold;
+   
+   }

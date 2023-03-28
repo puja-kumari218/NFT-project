@@ -1,0 +1,27 @@
+.CardContainer{
+    width: 900px;
+    position: absolute;
+    top: 310px;
+}
+.conversationIcon{
+    width: 150px;
+    height: 80px;
+    position: relative;
+    right: 65px;
+   background-size: 50px;
+}
+.card{
+    position: absolute;
+    border-radius: 15px !important;
+    
+} 
+.ellipsish{
+    position: absolute;
+    left: 210px;
+    top: 40px;
+    color: darkgray;
+}
+.cardimage{
+    border-radius: 15px;
+    width: 20px;
+}

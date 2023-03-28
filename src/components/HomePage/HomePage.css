@@ -1,0 +1,14 @@
+.Carousel{
+border-radius: 20px;
+position: absolute;
+left: 100px;
+top: 320px;
+}
+.Carousel img{
+ border-radius: 20px;
+}
+.HomePageheader h1{
+    position: relative;
+    top: 70px;
+
+}

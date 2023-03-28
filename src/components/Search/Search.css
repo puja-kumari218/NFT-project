@@ -1,0 +1,36 @@
+.search-container
+{
+    position: absolute;
+    left: 420px;
+
+}
+#search-input{
+    width: 400px;
+    outline: none;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    padding-left: 20px;
+    /* border-color:  #f4e0ac; */
+    background: none;
+    
+
+}
+
+::placeholder{
+    font-size: 18px;
+    color: #d45a5a;
+}
+
+ .MagnifyingGlass{
+    position: relative;
+    right: 200px;
+    top: 20px;
+ }
+
+.Createbtn{
+    position: relative;
+    left: 900px;
+    top: 20px;
+}

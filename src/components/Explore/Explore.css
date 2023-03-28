@@ -1,0 +1,53 @@
+.Explore-Container{
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+
+.Category-Container {
+    margin-left: 30px;
+}
+
+.Category-Container a {
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.btn{
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    background-color: rgb(228, 145, 145) !important;
+    border: 1px solid rgb(228, 145, 145) !important;
+}
+.btn:hover{
+    background-color: rgb(221, 25, 25) !important;
+    border: 1px solid rgb(201, 46, 46) !important;
+
+}
+.btn:active{
+    background-color: rgb(33, 22, 22) !important;
+    border: 1px solid rgb(25, 20, 20) !important;
+
+}
+
+.Palette{
+    position: relative;
+    left: 5px;
+}
+.PhotoCamera{
+    position: relative;
+    right: 20px;
+    left: 65px;
+    margin-left: 10px;
+    bottom: 30px;
+
+margin-left: 5px;
+}
+.Games{
+    position: relative;
+    right: 20px;
+    left: 50px;
+margin-left: 5px;
+bottom: 30px;
+
+}

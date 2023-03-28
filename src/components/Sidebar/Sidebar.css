@@ -1,0 +1,38 @@
+.Sidebar-Container{
+    position: absolute;
+    top: 180px;
+    font-size: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+align-items: flex-start;
+
+
+}
+
+.Sidebar-Container div{
+    position: relative;
+    display: inline-block;
+    left: 140px;
+    bottom: 60px;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+
+}
+.Sidebar-Container div:hover{
+    background-color: aquamarine;
+    border-left: 2px solid rebeccapurple;
+}
+
+.Sidebar-Container a{
+    text-decoration:none; 
+    color: #212529;
+    font-size: 18px !important;
+    margin-left: 20px;
+
+}
+.Sidebar-Container a:hover{
+    color: #212529;
+
+    
+}
