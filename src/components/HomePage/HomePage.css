@@ -1,14 +1,87 @@
-.Carousel{
-border-radius: 20px;
-position: absolute;
-left: 100px;
-top: 320px;
-}
-.Carousel img{
- border-radius: 20px;
-}
+
 .HomePageheader h1{
     position: relative;
-    top: 70px;
+   top: 90px;
+   font-family: 'RM Elegance Regular ';
+   font-weight: bolder;
+   right: 50px;
 
 }
+.detail{
+  position: relative;
+  top: 130px;
+  font-size: 18px;
+  font-weight: bold;
+  right: 40px;
+  color: rgb(95, 87, 87);
+}
+.detail p{
+  font-family: 'RM Elegance Regular ';
+
+}
+.carousal-img-container input[type=radio] {
+    display: none;
+  }
+  
+  .carousal-img-container .card {
+    position: absolute;
+    width: 15vw;
+    height: 20vh;
+    transition: transform .4s ease;
+    cursor: pointer;
+  }
+  
+  .carousal-img-container {
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    top: 11rem;
+    transform-style: preserve-3d;
+    left: 570px;
+  }
+  
+  .cards {
+    position: relative;
+    width: 15vw;
+    height: 20vh;
+    bottom: 65px;
+
+  }
+  
+  .carousal-img-container img {
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(.8);
+    /* transform: translatey(-40%) scale(.8); */
+    opacity: .4;
+    z-index: 0;
+    
+  }
+  
+  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(.8);
+    /* transform: translatey(-40%) scale(.8); */
+    opacity: .4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    transform: translatey(0s) scale(1);
+    opacity: 1;
+    z-index: 1;
+    
+  
+  }
+  
+  .carousal-img-container img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+
+
+  

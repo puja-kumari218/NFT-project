@@ -1,50 +1,36 @@
 import './HomePage.css';
-import Carousel from 'react-bootstrap/Carousel';
 function HomePage() {
   return (
     <div className="HomePage">
       <div className='HomePageheader'>
-<h1>Best of the best community owned NFT Market place</h1>
+        <h1>Best of the best <br/>community owned<br/> NFT Market place</h1>
+     
       </div>
-     <Carousel fade style={{width:"700px",height:"500px"}} className="Carousel">
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://cdn.dribbble.com/users/394068/screenshots/16876015/media/637667dd4ddb1b660076a2e5e0df45f6.png?compress=1&resize=1000x750&vertical=top"
-          alt="First slide"
-          style={{width:"700px",height:"500px" }}
-        />
-        <Carousel.Caption>        
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://cdn.dribbble.com/users/394068/screenshots/16876015/media/637667dd4ddb1b660076a2e5e0df45f6.png?compress=1&resize=1000x750&vertical=top"
-          alt="Second slide"
-          style={{width:"700px",height:"500px" }}
 
-        />
+      <div className='detail'>
+      <p>Create, sell or collect digital items secured  with Blockchain.</p>
+      </div>
 
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item>
-        <img
-          className="d-block w-100"
-          src="https://cdn.dribbble.com/users/394068/screenshots/16876015/media/637667dd4ddb1b660076a2e5e0df45f6.png?compress=1&resize=1000x750&vertical=top"
-          alt="Third slide"
-          style={{width:"700px",height:"500px" }}
+      <div class="carousal-img-container">
+        <input type="radio" name="slider" id="item-1" checked/>
+          <input type="radio" name="slider" id="item-2"/>
+            <input type="radio" name="slider" id="item-3"/>
+              <div class="cards">
+                <label class="card" for="item-1" id="song-1">
+                  <img src="https://pbs.twimg.com/profile_images/1634919741809721345/Ow2Krd3K_400x400.jpg" alt="nft"/>
+                </label>
+                <label class="card" for="item-2" id="song-2">
+                  <img src="https://pbs.twimg.com/profile_images/1610104028205031424/ootpBBF2_400x400.png" alt="nft"/>
+                </label>
+                <label class="card" for="item-3" id="song-3">
+                  <img src="https://s2.glbimg.com/EPCclUpcD8MwJ3gqsD5Nw1FsOgw=/0x0:595x599/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_63b422c2caee4269b8b34177e8876b93/internal_photos/bs/2021/c/8/vwEnBlQTOR5JMPV1qigw/captura-de-tela-2021-12-14-114837.jpg" alt="nft"/>
+                </label>
+              </div>
 
-        />
-   
-        <Carousel.Caption>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+            </div>
     </div>
-  );
+          );
 }
 
-export default HomePage;
+          export default HomePage;
 

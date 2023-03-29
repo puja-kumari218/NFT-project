@@ -25,12 +25,13 @@ function CardContainer() {
 
                     <Card.Img variant="top" src={mov.image} className="cardimage"/>
                    
-                    <Card.Body>
-                        <Card.Title> {mov.title}</Card.Title>
-                        <Card.Text>
+                    <Card.Body className='cardDetails'>
+                        <Card.Title className='cardTitle'> {mov.title}</Card.Title>
+                        <Card.Text classsName="cardDesc">
                         {mov.description}
                         </Card.Text>
-                        <Card.Text>
+                        <Card.Text className='highestBid'>
+                         <span>Highest Bid</span> 
                         {mov.bid}
                         </Card.Text>
                     </Card.Body>

@@ -11,10 +11,21 @@ function Search() {
 
     <input type ="text" placeholder="search by creator,collectible or collection" id="search-input"/>
  </div>
- <Button variant="outline-primary" className="Createbtn">
+ <Button  className="Createbtn">
+ <AiOutlinePlus size={20} style={{marginLeft: "25px", position: "absolute", right:"95px" ,top:"10px"}}/>
   Create
-  <AiOutlinePlus/>
+
  </Button>{' '}
+
+ <div className="Navlink">
+<a href="">Explore</a>
+<a href="">Help</a>
+
+<a href="">Activity</a>
+<img src="https://www.pngmart.com/files/22/User-Avatar-Profile-Background-Isolated-PNG.png" className="Avtar" alt=""/>
+ </div>
+
+
 
       </div>
     );
