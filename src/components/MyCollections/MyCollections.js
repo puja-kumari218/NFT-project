@@ -10,7 +10,7 @@ function MyCollections() {
         <h1>
           My Collections
         </h1>
-        <CardContainer/>
+       
       </div>
     </div>
   );
